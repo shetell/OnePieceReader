@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background: #333;
+    color: #fff;
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    background: coral;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.page-info {
+    margin-left: 1rem;
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 1rem;
+}
+
+body {
+    transform: scale(1);
+}
+
+.render_area {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+/* 开关按钮 */
+
+.mangamode {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-on {
+    width: 60px;
+    height: 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.btn-on {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid white;
+    background-color: #12B090;
+}
+
+.btn-on-circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    transition: all .5s;
+}
+
+.btn-on-text {
+    position: absolute;
+    left: 10px;
+    line-height: 25px;
+    color: white;
+    transition: all .5s;
+}
