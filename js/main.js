@@ -411,7 +411,7 @@ Object.defineProperty(a, 'hasBigPage', {
                     threshold = 1500;
                 }
                 if (isFullScreen) {
-                    threshold = 600;
+                    threshold = window.screen.height * 0.7;
                 }
                 console.log(canvas.width);
                 if (canvas.width > threshold) {
